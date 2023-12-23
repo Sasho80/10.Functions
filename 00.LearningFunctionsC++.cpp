@@ -11,4 +11,4 @@ int main() {
 // Definition
 void printSentence() {
 	cout << "I am learning functions in C++." << endl;
-}
+}
