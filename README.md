@@ -7,4 +7,6 @@ Write a method that prints a blank receipt. The method should call another three
 print the header, one for the middle part of the receipt and one for the lower part.
 ![image](https://github.com/Sasho80/10.Functions/assets/7139995/3a3d90bf-7ea9-40b5-9096-523cc8931b3f)
 
-
+02.Problem: Sign of an Integer
+Create a method that prints the sign of an integer n.
+![image](https://github.com/Sasho80/10.Functions/assets/7139995/787062c2-89ab-4039-bd1a-d6c1e4e7fd09)
