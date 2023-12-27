@@ -12,5 +12,9 @@ Create a method that prints the sign of an integer n.
 ![image](https://github.com/Sasho80/10.Functions/assets/7139995/787062c2-89ab-4039-bd1a-d6c1e4e7fd09)
 
 03.Problem: Printing a Triangle
-Create a method which prints a triangle as in the examples.
+Create a method which prints a triangle as in the examples:
 ![image](https://github.com/Sasho80/10.Functions/assets/7139995/a5985386-f423-4c68-891b-5a5b6c1ebd35)
+
+04.Problem: Draw a Filled Square
+Print on the console a filled square with side n, as in the examples below:
+![image](https://github.com/Sasho80/10.Functions/assets/7139995/8c596fc3-793f-48cc-be49-616e5385d5dd)
