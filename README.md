@@ -18,3 +18,8 @@ Create a method which prints a triangle as in the examples:
 04.Problem: Draw a Filled Square
 Print on the console a filled square with side n, as in the examples below:
 ![image](https://github.com/Sasho80/10.Functions/assets/7139995/8c596fc3-793f-48cc-be49-616e5385d5dd)
+
+06.Problem: Calculating Triangle Area
+Create a method that calculates the area of a triangle using the given base and height and returns it 
+as a result.
+![image](https://github.com/Sasho80/10.Functions/assets/7139995/f9d3933e-2bce-4bc5-971e-2a17ca84bdb7)
