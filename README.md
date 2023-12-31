@@ -29,7 +29,7 @@ Create a method that calculates and returns as result the power of a given numbe
 Sample Input and Output
 ![image](https://github.com/Sasho80/10.Functions/assets/7139995/b8d99cb5-584e-476a-bb53-da0217ac0ee1)
 
-07.Problem: The larger of Two Values
+07.Problem: The Larger Of Two Values
 The input is two values of the same type. The values can be of int, char or string type. Create a 
 method GetMax() that returns as a result the greater of the two values.
 
