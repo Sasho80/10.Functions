@@ -35,3 +35,8 @@ method GetMax() that returns as a result the greater of the two values.
 
 ![image](https://github.com/Sasho80/10.Functions/assets/7139995/9ef4b782-bd02-4e86-99b5-aa8f23d43295)
 
+08.Problem: "Hello, Name!"
+Write a method which takes a name as a parameter and prints on the console "Hello, {name}!".
+![image](https://github.com/Sasho80/10.Functions/assets/7139995/abd29a29-8bef-4acd-87d8-1af866016e46)
+
+
