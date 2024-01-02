@@ -39,4 +39,10 @@ method GetMax() that returns as a result the greater of the two values.
 Write a method which takes a name as a parameter and prints on the console "Hello, {name}!".
 ![image](https://github.com/Sasho80/10.Functions/assets/7139995/abd29a29-8bef-4acd-87d8-1af866016e46)
 
+09.Problem: Min Method - Return the Smaller Number
+Create a method GetMin(int a, int b), which returns the smaller of given two numbers. Write a 
+program, which takes as input three numbers and prints the smallest of them. Use the method 
+GetMin(int, int), which you have already created
+![image](https://github.com/Sasho80/10.Functions/assets/7139995/c55063f5-8272-4d32-8580-c37d0d38ce66)
+
 
