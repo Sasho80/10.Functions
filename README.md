@@ -45,4 +45,10 @@ program, which takes as input three numbers and prints the smallest of them. Use
 GetMin(int, int), which you have already created
 ![image](https://github.com/Sasho80/10.Functions/assets/7139995/c55063f5-8272-4d32-8580-c37d0d38ce66)
 
+10.Problem: String Repeater
+Create a method RepeatString(str, count), which takes parameters of type string and an 
+integer n and returns the string, repeated n times. After this print the result on the console.
+
+![image](https://github.com/Sasho80/10.Functions/assets/7139995/df39b663-dc73-4370-a7c8-670a873c0b25)
+
 
