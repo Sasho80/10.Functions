@@ -51,4 +51,11 @@ integer n and returns the string, repeated n times. After this print the result 
 
 ![image](https://github.com/Sasho80/10.Functions/assets/7139995/df39b663-dc73-4370-a7c8-670a873c0b25)
 
+11.Problem: Nth Digit
+Create a method FindNthDigit(number, index), which takes a number and index N as parameters 
+and prints the Nth digit of the number (counting from right to left and starting from 1). After that print 
+the result on the console.
+
+![image](https://github.com/Sasho80/10.Functions/assets/7139995/535603a5-b219-475e-a92e-a1db28d6c452)
+
 
