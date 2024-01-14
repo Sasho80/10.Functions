@@ -58,4 +58,10 @@ the result on the console.
 
 ![image](https://github.com/Sasho80/10.Functions/assets/7139995/535603a5-b219-475e-a92e-a1db28d6c452)
 
+12.Problem: Integer to Base
+Write a method IntegerToBase(number, toBase), which takes as parameters an integer and a base 
+of a numeral system and returns the integer converted to the given numeral system. After this the 
+result should be printed on the console. The input number will always be in decimal numeral system, 
+and the base parameter will be between 2 and 10.
+![image](https://github.com/Sasho80/10.Functions/assets/7139995/88449341-21f8-4107-a578-fc241ae84b85)
 
