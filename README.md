@@ -65,3 +65,16 @@ result should be printed on the console. The input number will always be in deci
 and the base parameter will be between 2 and 10.
 ![image](https://github.com/Sasho80/10.Functions/assets/7139995/88449341-21f8-4107-a578-fc241ae84b85)
 
+13.Problem: Notifications
+Write a program, which takes an integer n and n input messages and prints n output messages, based 
+on the input. For each message read a few lines. Each message starts with messageType: “success”, 
+“warning” or “error”:
+• If messageType is “success” read operation + message (each from a new line).
+• If messageType is “warning” read only message (from a new line).
+• If messageType is “error” read operation + message + errorCode (each from a new line).
+Print on the console each read message, formatted depending on its messageType. After the headline 
+of the message print as much “=”, as the length of the printed headline and print an empty line after 
+each message (to understand in detail look at the examples).
+![image](https://github.com/Sasho80/10.Functions/assets/7139995/aa78c471-f772-4f47-8d26-400227d8b750)
+![image](https://github.com/Sasho80/10.Functions/assets/7139995/98d8feed-852c-4077-bb02-dfe67f8a9544)
+
