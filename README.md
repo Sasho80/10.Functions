@@ -78,3 +78,15 @@ each message (to understand in detail look at the examples).
 ![image](https://github.com/Sasho80/10.Functions/assets/7139995/aa78c471-f772-4f47-8d26-400227d8b750)
 ![image](https://github.com/Sasho80/10.Functions/assets/7139995/98d8feed-852c-4077-bb02-dfe67f8a9544)
 
+14.Problem: Numbers to Words
+Write a method Letterize(number), which reads an integer and prints it in words in English 
+according to the conditions below:
+• Print in words the hundreds, the tens and the ones (and the eventual minus) according to the 
+rules of the English language.
+• If the number is larger than 999, you must print "too large".
+• If the number is smaller than -999, you must print "too small".
+• If the number is negative, you must print "minus" before it.
+• If the number is not built up of three digits, you shouldn't print it.
+![image](https://github.com/Sasho80/10.Functions/assets/7139995/e5dca1f6-e79a-4356-9453-800e44543e76)
+
+
