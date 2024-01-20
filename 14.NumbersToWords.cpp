@@ -12,7 +12,7 @@ int main() {
 		if (number<100 && number>-100) {
 			continue;
 		} 
-		else if (number==-999) {
+		else if (number<-999) {
 			cout << "too small" << endl;
 			continue;
 		}
