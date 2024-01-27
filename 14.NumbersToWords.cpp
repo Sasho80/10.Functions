@@ -32,12 +32,12 @@ void letterize(int number) {
 	string str2;
 	string str3;
 	hundreds = abs(number / 100);
-	tens=abs(number/10) % 10;
+	tens = abs(number / 10) % 10;
 	units = abs(number) % 10;
-	if((number >= 100 && number <= 900)&&
-		(tens == 0 && units == 0)||
-		(number <= -100 && number >= -900) 
-		&& (tens == 0 && units == 0)){
+	if ((number >= 100 && number <= 900) &&
+		(tens == 0 && units == 0) ||
+		(number <= -100 && number >= -900)
+		&& (tens == 0 && units == 0)) {
 		switch (hundreds) {
 		case 1: str1 = "one";
 			break;
@@ -59,10 +59,10 @@ void letterize(int number) {
 			break;
 		}
 	}
-	else if ((number >= 111 && number <= 919)&&
-		(tens==1)&& (units >= 1 && units <= 9) ||
-		(number <=-111 && number >= -919)&&
-		(tens == 1)&& (units >= 1 && tens <= 9)) {
+	else if ((number >= 111 && number <= 919) &&
+		(tens == 1) && (units >= 1 && units <= 9) ||
+		(number <= -111 && number >= -919) &&
+		(tens == 1) && (units >= 1 && tens <= 9)) {
 		switch (tens * 10 + units) {
 		case 11: str2 = "eleven";
 			break;
@@ -82,7 +82,7 @@ void letterize(int number) {
 			break;
 		case 19: str2 = "nineteen";
 			break;
-		   }
+		}
 		switch (hundreds) {
 		case 1: str1 = "one";
 			break;
@@ -100,104 +100,104 @@ void letterize(int number) {
 			break;
 		case 8: str1 = "eight";
 			break;
-		case 9: str1 = "nine"s;
+		case 9: str1 = "nine";
 			break;
-		  }
 		}
-		else if ((number >= 101 && number <= 999)&&
-			(tens >=0&& tens<=9) && (units >= 0 && units <= 9)
-			||(number <= -101 && number >=-999)&&
-			(tens >= 0 && tens <= 9) && 
-			(units >= 0 && units <= 9)){
-			switch (hundreds) {
-			case 1: str1 = "one";
-				break;
-			case 2: str1 = "two";
-				break;
-			case 3: str1 = "three";
-				break;
-			case 4: str1 = "four";
-				break;
-			case 5: str1 = "five";
-				break;
-			case 6: str1 = "six";
-				break;
-			case 7: str1 = "seven";
-				break;
-			case 8: str1 = "eight";
-				break;
-			case 9: str1 = "nine";
-				break;
-			}
-			switch (tens) {
-			case 1: str2 = "ten";
-				break;
-			case 2: str2 = "twenty";
-				break;
-			case 3: str2 = "thirty";
-				break;
-			case 4: str2 = "forty";
-				break;
-			case 5: str2 = "fifty";
-				break;
-			case 6: str2 = "sixty";
-				break;
-			case 7: str2 = "seventy";
-				break;
-			case 8: str2 = "eighty";
-				break;
-			case 9: str2 = "ninety";
-				break;
-			}
-			switch (units) {
-			case 1: str3 = "one";
-				break;
-			case 2: str3 = "two";
-				break;
-			case 3: str3 = "three";
-				break;
-			case 4: str3 = "four";
-				break;
-			case 5: str3 = "five";
-				break;
-			case 6: str3 = "six";
-				break;
-			case 7: str3 = "seven";
-				break;
-			case 8: str3 = "eight";
-				break;
-			case 9: str3 = "nine";
-				break;
-			}
+	}
+	else if ((number >= 101 && number <= 999) &&
+		(tens >= 0 && tens <= 9) && (units >= 0 && units <= 9)
+		|| (number <= -101 && number >= -999) &&
+		(tens >= 0 && tens <= 9) &&
+		(units >= 0 && units <= 9)) {
+		switch (hundreds) {
+		case 1: str1 = "one";
+			break;
+		case 2: str1 = "two";
+			break;
+		case 3: str1 = "three";
+			break;
+		case 4: str1 = "four";
+			break;
+		case 5: str1 = "five";
+			break;
+		case 6: str1 = "six";
+			break;
+		case 7: str1 = "seven";
+			break;
+		case 8: str1 = "eight";
+			break;
+		case 9: str1 = "nine";
+			break;
 		}
-	if ((number <=-100 && number >= -900)
+		switch (tens) {
+		case 1: str2 = "ten";
+			break;
+		case 2: str2 = "twenty";
+			break;
+		case 3: str2 = "thirty";
+			break;
+		case 4: str2 = "forty";
+			break;
+		case 5: str2 = "fifty";
+			break;
+		case 6: str2 = "sixty";
+			break;
+		case 7: str2 = "seventy";
+			break;
+		case 8: str2 = "eighty";
+			break;
+		case 9: str2 = "ninety";
+			break;
+		}
+		switch (units) {
+		case 1: str3 = "one";
+			break;
+		case 2: str3 = "two";
+			break;
+		case 3: str3 = "three";
+			break;
+		case 4: str3 = "four";
+			break;
+		case 5: str3 = "five";
+			break;
+		case 6: str3 = "six";
+			break;
+		case 7: str3 = "seven";
+			break;
+		case 8: str3 = "eight";
+			break;
+		case 9: str3 = "nine";
+			break;
+		}
+	}
+	if ((number <= -100 && number >= -900)
 		&& (tens == 0 && units == 0)) {
-		cout << "minus "<<str1<<"-" << "hundred" << endl;
+		cout << "minus " << str1 << "-" << "hundred" << endl;
 	}
 	else if ((number >= 100 && number <= 900)
 		&& (tens == 0 && units == 0)) {
 		cout << str1 << "-" << "hundred" << endl;
 	}
-	else if ((number >= 111 && number <= 919)&&(tens == 1) 
+	else if ((number >= 111 && number <= 919) && (tens == 1)
 		&& (units >= 1 && units <= 9)) {
-		cout << str1 << "-" << "hundred" <<" and " << str2 << endl;
+		cout << str1 << "-" << "hundred" << " and " << str2 << endl;
 	}
-	else if((number <= -111 && number >= -919) &&
-		(tens == 1)&& (units >= 1 && units <= 9)) {
-		cout <<"minus"<<str1 << "-" << "hundred"
-		<< " and " << str2 << endl;
+	else if ((number <= -111 && number >= -919) &&
+		(tens == 1) && (units >= 1 && units <= 9)) {
+		cout << "minus " << str1 << "-" << "hundred"
+			<< " and " << str2 << endl;
 	}
-	else if ((number >120 && number <=999) &&
-		(tens >= 2 && tens <= 9) && 
-		(units >= 0 && units <= 9)) {
-		cout  << str1 << "-" << "hundred" << " and "
+	else if ((number >= 121 && number <= 999) &&
+		(tens >= 2 && tens <= 9) &&
+		(units >= 1 && units <= 9)) {
+		cout << str1 << "-" << "hundred" << " and "
 			<< str2 << " " << str3 << endl;
 	}
-	else if ((number <-120 && number >=-999) && 
+	else if ((number <= -121 && number >= -999) &&
 		(tens >= 2 && tens <= 9) &&
-		(units >= 0 && units <= 9)) {
-		cout <<"minus " << str1 <<"-" << "hundred"<<" and " 
-			<< str2<<" "<< str3 << endl;
+		(units >= 1 && units <= 9)) {
+		cout << "minus " << str1 << "-" << "hundred" << " and "
+			<< str2 << " " << str3 << endl;
 	}
 	else if ((number >= 101 && number <= 909) &&
 		(tens >= 0 && tens <= 9) &&
@@ -207,8 +207,17 @@ void letterize(int number) {
 	else if ((number >= 101 && number <= 909) &&
 		(tens >= 0 && tens <= 9) &&
 		(units >= 1 && units <= 9)) {
-		cout << "minus " << str1 << "-" << "hundred" 
+		cout << "minus " << str1 << "-" << "hundred"
 			<< " and " << str3 << endl;
 	}
-  }
+	else if ((number >= 110 && number <= 990) && (units == 0)
+		&& (tens >= 1 && tens <= 9)) {
+		cout << str1 << "-" << "hundred" << " and " << str2 << endl;
+	}
+	else if ((number <= -110 && number >= -990) &&
+		(units == 0) && (tens >= 1 && tens <= 9)) {
+		cout << "minus " << str1 << "-" << "hundred"
+			<< " and " << str2 << endl;
+	}
+}
   
