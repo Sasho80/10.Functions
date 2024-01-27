@@ -20,7 +20,6 @@ string encrypt(char letter) {
 	int number;
 	int firstDigit=0;
 	int lastDigit=0;
-	int firstIndex = 1;
 	int lastIndex=0;
 	int numDigits = 0;
 	int firstSymbol,lastSymbol;
@@ -31,10 +30,10 @@ string encrypt(char letter) {
 		number = number / 10;
 		numDigits++;
 	}
-	lastDigit = numDigits;
+	lastIndex = numDigits;
 	number =(char(letter));
 	while (number!=0){
-		if (lastDigit == i) {
+		if (lastIndex == i) {
 			lastDigit = number % 10;
 			break;
 		}
